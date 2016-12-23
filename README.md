@@ -1,8 +1,7 @@
 # puppetmods-bioperl
 Puppet module for installing BioPerl
 
-Usage:
+# Usage
 
 Load module with default options:
-
 class { 'bioperl': }
