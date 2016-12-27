@@ -1,0 +1,31 @@
+{
+  "name": "biotools-bioperl",
+  "version": "0.1.0",
+  "author": "biotools",
+  "summary": "Installs the BioPerl bioinformatics perl library.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/entheologist/puppetmods-bioperl",
+  "project_page": "https://github.com/entheologist/puppetmods-bioperl",
+  "issues_url": "https://github.com/entheologist/puppetmods-bioperl",
+  "dependencies": [
+    {
+      "name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"
+    }
+  ],
+  "data_provider": null,
+  "tags": [
+    "perl",
+    "bioperl",
+    "bioinformatics"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04",
+        "14.04"
+      ]
+    }
+  ]
+}
+
